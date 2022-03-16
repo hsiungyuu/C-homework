@@ -19,6 +19,6 @@ int main(){
 	for(auto i:mymap) sorted.push_back({-i.second, i.first});
 	sort(all(sorted));
 	for(int i=0; i<5; i++) cout << sorted[i].second << ' ' << (sorted[i].first)*(-1) << '\n';
-    return 0;
+    	return 0;
 }
 ```
